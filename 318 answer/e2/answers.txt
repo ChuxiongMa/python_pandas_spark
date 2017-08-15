@@ -1,0 +1,8 @@
+1. In the hint above, describe the values that are the result of data['timestamp']*fit.slope + fit.intercept? How is this calculated?
+
+The points on both sides of the best-fit line have the same intercept to the fit line.
+
+2. In the same hint, why does this produce a fit line on the graph? Why are the created_at values and timestamp values paired correctly to make points on the plot? 
+
+Because the total intercepts are the same to all points on both sides.
+Timestamps values are the numeric values of created_at values. 

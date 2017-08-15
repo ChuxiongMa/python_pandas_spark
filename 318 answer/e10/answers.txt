@@ -1,0 +1,15 @@
+1. How long did your reddit_averages.py take with (1) the reddit-0 data set and effectively no work, (2) no schema specified and not caching (on reddit-2 for this and the rest), (3) with a schema but not caching, (4) with both a schema and caching the twice-used DataFrame?
+(1): 0m11.316s
+(2): 0m14.253s
+(3): 0m13.803s
+(4): 0m13.734s
+
+2. Based on the above, does it look like most of the time taken to process the reddit-2 data set is in reading the files, or calculating the averages?
+
+Reading data takes more time. Because time taken with cache and without cache only have slight difference, but after adding schema, progarm
+almost has saved 0.5s.
+
+3. Where did you use .cache() in your wikipedia_popular.py? [Hint: the answer had better be “once”… but where?]
+
+I will use .cache() for joined_data on my code. Because joined_data is used for most frequent,
+it will be sorted and selected, so it will be use more than once.

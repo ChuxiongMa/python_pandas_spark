@@ -1,0 +1,121 @@
+data-1.csv
+mean
+x: 8.717696
+y: 12.522874
+
+standard deviation
+x: 12.155517
+y: 6.639964
+
+range
+x: -22.635878 to 35.237055
+y: -2.565088 to 27.384153
+
+correlation coefficient
+0.950325
+
+Summary:
+The slope tendency of data set is postive and x is sligtly greater than y.
+
+
+
+data-2.csv
+mean
+x: -0.710787
+y: -0.748987
+
+standard deviation
+x: 11.481584
+y: 6.257918
+
+range
+x: -33.271113 to 27.647000
+y: -18.621804 to 14.147315
+
+correlation coefficient
+0.955153
+
+Summary:
+The slope tendency of data set is postive and y's value is almost half of x's.
+
+
+data-3.csv
+mean
+x: 0.968907
+y: 8.508535
+
+standard deviation
+x: 2.235558
+y: 1.149301
+
+range
+x: -2.449064 to 4.518885
+y: 6.641734 to 10.551871
+
+correlation coefficient
+0.98193726
+
+Summary:
+The slope tendency of data set is postive and y is greater than x. x and y values are concentrated on 4 places.
+
+
+data-4.csv
+mean
+x: 49.905086
+y: 18.553837
+
+standard deviation
+x: 28.508611
+y: 16.545896
+
+range
+x: 0 to 87.37670
+y: 0 to 44.56504
+
+correlation coefficient
+-0.08119306
+
+Summary:
+Plotting values with rectangle shape and display "SFU" at right-bottom side of the rectangle.
+
+
+data-5.csv
+mean
+x: 49.909994
+y: 18.555525
+
+standard deviation
+x: 28.500001
+y: 16.540796
+
+range
+x: 4.337892 to 91.052863
+y: 0.055498 to 49.934197
+
+correlation coefficient
+-0.08823598
+
+Summary:
+Looks like five vertical lines shape. x values increase like arithmetic progression, y values distribute from 0 to 50
+
+
+data-6.csv
+mean
+x: 7.216155
+y: 7.602215
+
+standard deviation
+x: 11.921599
+y: 11.764382
+
+range
+x: -24.333821 to 35.402139
+y: -22.956357 to 36.079874
+
+correlation coefficient
+0.93506856620949064
+
+Summary:
+Looks like a linear line with positive slope because x and y have similiar std, mean and range.
+
+

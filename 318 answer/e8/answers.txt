@@ -1,0 +1,7 @@
+1. Which model did the best for the colour-prediction task? Can you give a theory about why?
+    
+KNeighborsClassifier did the best job. KNeighborsClassifier select k neighbors nearby the unknown colour and see which colour count for the most neighbors. Because the number of colour is limited and it could guess the colour from its neighbors, so it has higher accuarcy. 
+
+2. Have a look at the cities in your test data where the weather model makes the wrong prediction. Do you feel like the model is making reasonable mistakes? Can you think of any weather features that we could potentially add to make better predictions? 
+
+Yes, it is making reasonable mistakes. Because the worry city is very close to the correct city, so they have similiar weather, it is reasonable that the model make the worry decision. We could add more locaion data such as longitude and latitude to improve it.

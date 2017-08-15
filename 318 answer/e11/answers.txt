@@ -1,0 +1,10 @@
+1. In your reddit_relative.py, what intermediate results did you .cache()? Briefly describe what would have happened if you hadn't used .cache() anywhere. (No need to time it, unless you really want to.)
+
+I cached dataframes which need to be groupby. If I didn't use cache(), the dataframes would be dumpped and need to be reloaded when I 
+want to use it again, which takes more time. 
+
+2. How did marking DataFrames for broadcast affect the running time of the “best author” program above?
+
+With broadcast: 32s
+Without broadcast: 46s
+It really save a lot of time because it sends a copy of DataFrame to every executor and just doing a lookup for every row of the larger DataFrame

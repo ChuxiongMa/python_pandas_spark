@@ -1,0 +1,15 @@
+1. In the A/B test analysis, do you feel like we're p-hacking? How comfortable are you coming to a conclusion at p<0.05?
+
+No, instructors are still compared with instructors, no p-hacking. And p<0.05 proves that instructors use search more often.
+
+
+2. If we had done T-tests between each pair of sorting implementation results, how many tests would we run? If we looked for p<0.05
+in them, what would the probability be of having all conclusions correct, just by chance? That's the effective p-value of the many-T-tests analysis.
+
+21 tests will be run. 0.95^21 = 0.34. 1 - 0.34 = 0.66. The probability is 0.66.
+
+3. Give a ranking of the sorting implementations by speed, including which ones could not be distinguished. (i.e. which pairs could our experiment not conclude had different running times?)
+
+According to the image:
+rank 1: qs1  rank 2: partition_sort  rank 4: qs2, qs3, qs4, qs5  rank 5: merge1
+qs2, qs3, qs4, qs5 could not be distinguished
